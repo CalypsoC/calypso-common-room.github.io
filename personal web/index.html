@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Calyspo and common room</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", sans-serif}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 .bgimg {
   background-position: center;
@@ -15,6 +15,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", sans-serif}
   background-size: cover;
   background-image: url('side\ bar\ .JPG');
   min-height: 100%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 </style>
 <body>
@@ -31,9 +39,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", sans-serif}
   </a>
   <div class="w3-bar-block w3-center">
     <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Table</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Sofa area</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Where to find me?</a>
   </div>
 </nav>
 
@@ -44,14 +52,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", sans-serif}
   <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
   <!-- Header -->
-  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
-    <h2 class="w3-jumbo"><b>Cyber common room </b></h2>
-    <p> Hi,My name is Calypso. I am the temporary owner of this common room. Nice to meet you.</p> 
+  <header class="w3-container w3-center " style="padding:128px 16px" id="home">
+    <h2 class="w3-xxxlarge"  ><b>Cyber common room </b></h2>
+    <p> Hi! My name is Calypso. I am the temporary owner of this common room. Nice to meet you.</p> 
     <p>Here is an official résumé .</p>
     <img src="side bar .JPG" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
     <img src="side bar .JPG" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
     <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
-      <i class="fa fa-download"></i> Download Resume
+      <i class="fa fa-download"></i> Download Resume(currently unavaliable)
     </button>
   </header>
 
@@ -80,24 +88,47 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", sans-serif}
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-    <h2>About</h2>
+    <h2>Let's Talk!</h2>
     <hr class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
-      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
+    <div class="w3-container w3-margin-right w3-dark-grey w3-text-white">
+      <p>What is the meaning of your website?</p>
+    </div>
+    <div class="w3-container w3-margin w3-text-grey">
+        <p>The reason I set up this website is to have a platform to have a space to talk with different people.Because I always want to find a way to make friends in a honest and comfortable way. </p>
+    </div>
+    <div class="w3-container w3-margin-right w3-dark-grey w3-text-white">
+      <p>What do you called it "common room"? </p>
+    </div>
+    <div class="w3-container w3-margin  w3-text-grey">
+      <p>In my pervious school, we have a common room. That is a place where everone just chill and chat with others. That room really helps me settle down in a week. </p>
+    </div>
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin">
+      <i class="fa fa-download"></i> ESSAY/ ARTICLES COLLECTION (not ready yet )
+    </button>
+
+      <!--tags section-->
+  <div class="w3-content">
+    <h4>Popular Tags</h4>
+    <p>
+      <span class="w3-tag w3-dark-grey w3-xlarge w3-round-xlarge w3-margin-bottom">NO TAGS!</span> </P>
+    <P>
+      <span class="w3-tag w3-dark-grey w3-xlarge w3-round-xlarge w3-margin-bottom">Can't be given tags.</span> </P> 
+    <p>
+      <span class="w3-tag w3-dark-grey w3-xlarge w3-round-xlarge w3-margin-bottom">Refuse to be defined</span> </P> 
+  </div>
+
     <h3 class="w3-padding-16">My Skills</h3>
     <p class="w3-wide">Photography</p>
     <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:60%">60%</div>
+    </div>
+    <p class="w3-wide">Web Design Intro</p>
+    <div class="w3-light-grey">
       <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
     </div>
-    <p class="w3-wide">Web Design</p>
+    <p class="w3-wide">Microsoft (Word, PowerPoint, Excel, VBA)</p>
     <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
     </div><br>
   
     
@@ -107,15 +138,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", sans-serif}
 
   <!-- Contact Section -->
   <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-    <h2>Contact Me</h2>
+    <h2>Where to find me?</h2>
     <hr class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Northern Lincolnshire,UK/ Shenzhen,China</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: calyspoxi@mgail.com</p>
     </div>
-    
+  
+
     <!-- Image of location/map -->
     <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
    
@@ -136,12 +167,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", sans-serif}
   
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href ="https://www.instagram.com/calypso_wm/" ><i class="fa fa-instagram w3-hover-opacity"></i></a>
+   
+    <a href ="https://www.linkedin.com/in/%E6%9B%A6-%E9%99%88-228129185/" > <i class="fa fa-linkedin w3-hover-opacity"></i> </a>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
